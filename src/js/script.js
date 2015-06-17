@@ -9,7 +9,7 @@ if (document.body.innerText) {
 } else if (document.body.textContent) {
   text = function (el, v) { return v ? el.textContent = v : el.textContent; };
 }
-
+alert('it is test code. this: ', this);
 // gtieX augments. so a search is matching .gtie8,
 // need to match .gtie7 and .gtie6 too
 var ies = ['gtie6', 'gtie7', 'gtie8', 'gtie9', 'gtie10'];
